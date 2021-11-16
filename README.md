@@ -4,7 +4,7 @@ Consumer Product Safety Commission data indicate that over 2,000 people were tre
 
 As an Attempt to solve the above problem this project was developed to alert  when the hand moves beyond a certain limit into the shredder machine. When the hand is reaching near the blades of the machine and  cross the second threshold the machine is set to auto cutoff. 
 
-The model is trained on SSD mobile net, the data was collected from a recording  of 24 hours of workers working with the shredder. The data was then augmented and validated using Data augmentation techniques. The data was then annotated and trained using faster RCNN and Mobilenet SSD model, as Mobile net gave better results it was chosen for productionizing.
+The model is trained on SSD mobile net, the data was collected from a recording  of 24 hours of workers working with the shredder. The data was then augmented and validated using Data augmentation techniques. The data was then annotated and trained using faster RCNN and Mobilenet SSD model, as Mobile net gave better results it was chosen for productionizing.The code is avialble in master branch of the repository.
 
 # Mobilenet-SSD
 
